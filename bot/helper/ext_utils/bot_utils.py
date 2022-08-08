@@ -382,7 +382,7 @@ ZIP : {num_archi} | UNZIP : {num_extract} | TOTAL : {tasks}
 
 Limits : T/D : {TORRENT_DIRECT_LIMIT}GB | Z/U : {ZIP_UNZIP_LIMIT}GB
 
-MADE WITH ❤️ BY TG-MIRROR-LEECH-BOT
+Sledger Cloud
 """
     return stats
 dispatcher.add_handler(
