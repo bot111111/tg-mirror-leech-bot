@@ -90,7 +90,7 @@ def getHerokuDetails(h_api_key, h_app_name):
         abc += f"<b>├ 🎃 APP USAGE:</b> {get_readable_time(AppQuotaUsed)}\n"
         abc += f"<b>├ 🗑️ OTHER APP:</b> {get_readable_time(OtherAppsUsage)}\n"
         abc += f'<b>│</b>\n'
-        abc += f'<b>╰─《 ☣️ @krn270101 ☣️ 》</b>'
+        abc += f'<b>╰─《 ☣️ @SLEDGER99 ☣️ 》</b>'
         return abc
     except Exception as g:
         LOGGER.error(g)
@@ -279,7 +279,7 @@ help_string_telegraph_user = f'''
 '''
 
 help_user = telegraph.create_page(
-    title='TMLB Mirror Help',
+    title='Sleder Cloud Mirror Help',
     content=help_string_telegraph_user)["path"]
 
 help_string_telegraph_admin = f'''
@@ -303,7 +303,7 @@ help_string_telegraph_admin = f'''
 '''
 
 help_admin = telegraph.create_page(
-    title='TMLB Mirror Help',
+    title='Sledger Cloud Mirror Help',
     content=help_string_telegraph_admin)["path"]
 
 def bot_help(update, context):
